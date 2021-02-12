@@ -1,0 +1,16 @@
+package es.upm.dit.dscc.DHT;
+
+public enum OperationEnum {
+	PUT_MAP,
+	GET_MAP,
+	REMOVE_MAP,
+	CONTAINS_KEY_MAP,
+	KEY_SET_HM,
+	VALUES_HM,
+	LIST_SERVERS,
+	RETURN_VALUE,
+	RETURN_STATUS,
+	DHT_REPLICA,
+	DATA_REPLICA,
+	INIT
+}
